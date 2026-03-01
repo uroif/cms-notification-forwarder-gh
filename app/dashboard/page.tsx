@@ -1,0 +1,1 @@
+'use client'import NotificationList from '@/components/NotificationList'export default function DashboardPage() {  return (    <div className="space-y-6 ">      <div>        <NotificationList showExtractionInfo={false} />      </div>    </div>  )}
